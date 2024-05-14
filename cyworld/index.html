@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <title>사이좋은 사람들, 싸이월드</title>
+    <link href="./styles/index.css" rel="stylesheet">
+    <script src="https://kit.fontawesome.com/6a675a031d.js" crossorigin="anonymous"></script>
+    <script src="./index.js"></script>
+
+</head>
+<body>
+    <div class="background">
+        <div class="outerbox">
+            <div class="wrapper">
+                <div class="wrapper__left">
+                    <div class="wrapper__left__header">
+                        <div class="today">
+                            TODAY
+                            <span class="zero">0</span>  |  TOTAL
+                            <span class="count">12345</span>
+                        </div>
+                    </div>
+                    <div class="wrapper__left__body">
+                        <div class="left__body__header">
+                            <div class="left__body__header__gray"></div>
+                            <div class="left__body__header__line"></div>
+                        </div>
+                        <div class="left__body__profile">
+                            <div class="profile__detail">
+                                <i class="fa-solid fa-user"></i>
+                                name
+                            </div>
+                            <div class="profile__detail">
+                                <i class="fa-solid fa-phone"></i>
+                                phone
+                            </div>
+                            <div class="profile__detail">
+                                <i class="fa-solid fa-envelope"></i>
+                                mail
+                            </div>
+                            <div class="profile__detail">
+                                <i class="fa-brands fa-instagram"></i>
+                                instagram
+                            </div>
+                        </div>
+                        <div class="left__body__footer">
+                            <div class="wrapper__feel">
+                                <div class="feel__title">Today's feeling</div>
+                                <select class="feel__select">
+                                    <option>joyful 😄</option>
+                                    <option>sad 🥲</option>
+                                    <option>angry 😡</option>
+                                </select>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="wrapper__right">
+                    <div class="wrapper__right__header">
+                        <div class="right__header__title">
+                            Good People, CYWORLD
+                        </div>
+                        <div class="right__header__setting">
+                            Setting for privacy
+                        </div>
+                    </div>
+                    <div class="wrapper__right__body">
+                        <iframe id="contentFrame" src="./home.html"></iframe>
+                    </div>
+                </div>
+                <div class="navigation">
+                    <div class="navigation__item" id="menuHome" onclick="menuHome()">Home</div>
+                    <div class="navigation__item" id="menuJukebox" onclick="menuJukebox()">Jukebox</div>
+                    <div class="navigation__item" id="menuGame" onclick="menuGame()">Game</div>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
